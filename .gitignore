@@ -1,0 +1,36 @@
+artifacts/
+cnncls/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+.env
+.venv/
+*.log
+
+# Ignore model and large files
+artifacts/
+*.h5
+*.hdf5
+*.ckpt
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Git metadata files
+*.swp
+*.swo
+*.bak
+
+# Ignore package-related files
+*.egg-info/
+dist/
+build/
